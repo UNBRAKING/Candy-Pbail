@@ -81,9 +81,7 @@ class Bot(Client):
   ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
  / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
 | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
-                                                         
- 
-                                          """)
+                                                         """)
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
